@@ -1,4 +1,4 @@
-# **pack.ag/amqp**
+# **github.com/nuclio/amqp**
 
 [![Go Report Card](https://goreportcard.com/badge/pack.ag/amqp)](https://goreportcard.com/report/pack.ag/amqp)
 [![Coverage Status](https://coveralls.io/repos/github/vcabbage/amqp/badge.svg?branch=master)](https://coveralls.io/github/vcabbage/amqp?branch=master)
@@ -7,7 +7,7 @@
 [![GoDoc](https://godoc.org/pack.ag/amqp?status.svg)](http://godoc.org/pack.ag/amqp)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/vcabbage/amqp/master/LICENSE)
 
-pack.ag/amqp is an AMQP 1.0 client implementation for Go.
+github.com/nuclio/amqp is an AMQP 1.0 client implementation for Go.
 
 AMQP 1.0 is not compatible with AMQP 0-9-1 or 0-10, which are
 the most common AMQP protocols in use today. A list of AMQP 1.0 brokers and other
@@ -21,7 +21,7 @@ API is subject to change until 1.0.0. If you choose to use this library, please 
 ## Install
 
 ```
-go get -u pack.ag/amqp
+go get -u github.com/nuclio/amqp
 ```
 
 ## Contributing
@@ -38,7 +38,7 @@ import (
 	"fmt"
 	"log"
 
-	"pack.ag/amqp"
+	"github.com/nuclio/amqp"
 )
 
 func main() {

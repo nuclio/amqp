@@ -4,7 +4,7 @@ go:
  - 1.8.x
  - 1.x
  - tip
-go_import_path: pack.ag/amqp
+go_import_path: github.com/nuclio/amqp
 matrix:
  allow_failures:
   - go: tip

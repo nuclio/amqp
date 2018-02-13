@@ -1,10 +1,10 @@
-# pack.ag/amqp Changelog
+# github.com/nuclio/amqp Changelog
 
 ### 0.3.0
 
 #### Summary
 
-* Adds support for setting source selector filter with [`LinkSelectorFilter()`](https://godoc.org/pack.ag/amqp#LinkSelectorFilter).
+* Adds support for setting source selector filter with [`LinkSelectorFilter()`](https://godoc.org/github.com/nuclio/amqp#LinkSelectorFilter).
 
 This addition allows clients to communicate [offsets to Azure Event Hubs](http://azure.github.io/amqpnetlite/articles/azure_eventhubs.html#filter).
 
